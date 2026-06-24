@@ -172,6 +172,7 @@ public with sharing class ShadikhanaBookingController {
         }
 
         List<String> results = new List<String>(bookedDates);
+        System.debug('result'+result);
         results.sort();
         return results;
     }
